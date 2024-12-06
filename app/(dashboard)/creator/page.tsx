@@ -1,0 +1,10 @@
+// app/(dashboard)/creator/page.tsx
+import { Card } from "@/components/ui/card"
+import { Overview } from "@/components/dashboard/overview"
+import { RecentSales } from "@/components/dashboard/recent-sales"
+import { Button } from "@/components/ui/button"
+import { DateRangePicker } from "@/components/dashboard/date-range-picker"
+import { ScrollAnimated } from "@/components/animation/scroll-animated"
+import { Icons } from "@/components/icons"
+import { getCreatorStats } from "@/lib/actions/creator"
+import Link from "next/link"
